@@ -5,7 +5,6 @@ def key_for_min_value(name_hash)
 
   name_hash.each {|key, value|}.first
   puts key
-end
 
 
 end
