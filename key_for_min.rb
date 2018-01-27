@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-  name_hash.sort {|name, value|}
+  name_hash.each {|name, value|}
   name <=> value
   name
 
