@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
 
-name_hash.any? do |key, value| value == nil
-  puts key
+name_hash.any? do |key, value| if value == nil
+
 
 end
 end
