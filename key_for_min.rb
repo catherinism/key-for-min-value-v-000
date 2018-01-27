@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-name_hash.find do |key, value|.first
+name_hash.find do |key, value|
   key
 end
 end
