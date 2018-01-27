@@ -3,9 +3,8 @@
 
 def key_for_min_value(name_hash)
 
-  name_hash.each do |key, value|.first
-    puts key
-  end
+  name_hash.each {|key, value|}.first
+  puts key
 end
 
 
