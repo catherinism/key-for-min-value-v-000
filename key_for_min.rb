@@ -3,8 +3,6 @@
 
 def key_for_min_value(name_hash)
 
-  name_hash.each {|name, value|}
-  name <=> value
-  name
+  name_hash.each {|name, value|}.first
 
 end
